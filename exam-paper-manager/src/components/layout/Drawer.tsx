@@ -17,7 +17,7 @@ import {
   IconButton,
   useMediaQuery,
 } from '@mui/material';
-import type { SxProps } from '@mui/system';
+// import type { SxProps } from '@mui/system';
 import type { SxProps as MuiSxProps } from '@mui/material/styles';
 import {
   Home as HomeIcon,

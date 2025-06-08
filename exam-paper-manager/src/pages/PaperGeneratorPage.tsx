@@ -61,7 +61,7 @@ const subjects = ['Math', 'Science', 'History', 'English', 'Geography'];
 const questionTypes: QuestionType[] = ['Multiple Choice', 'True/False', 'Short Answer', 'Essay'];
 const difficultyLevels: Difficulty[] = ['Easy', 'Medium', 'Hard'];
 
-const PaperGeneratorPage: FC = (): jsx.Element => {
+const PaperGeneratorPage: FC = (): JSX.Element => {
   // State for form data
   const [formData, setFormData] = useState<FormData>({
     title: '',
